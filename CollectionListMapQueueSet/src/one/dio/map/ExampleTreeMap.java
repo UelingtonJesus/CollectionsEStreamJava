@@ -17,31 +17,31 @@ public class ExampleTreeMap {
         System.out.println("\nExibe todas as capitais");
         System.out.println(treeCapitais);
 
-        System.out.println("\nRetona a primeira capital no topo da árvore");
+        System.out.println("\nRetorna a primeira capital no topo da árvore");
         System.out.println(treeCapitais.firstKey());
 
-        System.out.println("\nRetona a última capital no topo da árvore");
+        System.out.println("\nRetorna a última capital no topo da árvore");
         System.out.println(treeCapitais.lastKey());
 
-        System.out.println("\nRetona a primeira capital abaixo na árvore da capital parametrizada");
+        System.out.println("\nRetorna a primeira capital abaixo na árvore da capital parametrizada");
         System.out.println(treeCapitais.lowerKey("SC"));
 
-        System.out.println("\nRetona a primeira capital acima na árvore da capital parametrizada");
+        System.out.println("\nRetorna a primeira capital acima na árvore da capital parametrizada");
         System.out.println(treeCapitais.higherKey("SC"));
 
         System.out.println("\nExibe todas as capitais");
         System.out.println(treeCapitais);
 
-        System.out.println("\nRetona a primeira capital no topo da árvore");
+        System.out.println("\nRetorna a primeira capital no topo da árvore");
         System.out.println(treeCapitais.firstEntry().getKey()+"-"+treeCapitais.lastEntry().getValue());
 
-        System.out.println("\nRetona a última capital no topo da árvore");
+        System.out.println("\nRetorna a última capital no topo da árvore");
         System.out.println(treeCapitais.lastEntry().getKey()+"-"+treeCapitais.lastEntry().getValue());
 
-        System.out.println("\nRetona a primeira capital abaixo na árvore da capital parametrizada");
+        System.out.println("\nRetorna a primeira capital abaixo na árvore da capital parametrizada");
         System.out.println(treeCapitais.lowerEntry("SC").getKey()+"-"+treeCapitais.lowerEntry("SC").getValue());
 
-        System.out.println("\nRetona a primeira capital acima na árvore da capital parametrizada");
+        System.out.println("\nRetorna a primeira capital acima na árvore da capital parametrizada");
         System.out.println(treeCapitais.higherEntry("SC").getKey()+"-"+treeCapitais.higherEntry("SC").getValue());
 
         System.out.println("\nExibe todas as capitais");

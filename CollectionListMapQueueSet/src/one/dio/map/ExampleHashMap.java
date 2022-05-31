@@ -62,7 +62,7 @@ public class ExampleHashMap {
         System.out.println("\nRetorna se existe ou não o valor 5");
         System.out.println(campeoesMundialFifa.containsValue(5));
 
-        System.out.println("\nRetorna o tamanho antes e depoi de limpar o mapa");
+        System.out.println("\nRetorna o tamanho antes e depois de limpar o mapa");
         System.out.println(campeoesMundialFifa.size());
         campeoesMundialFifa.clear();
         System.out.println(campeoesMundialFifa.size());
